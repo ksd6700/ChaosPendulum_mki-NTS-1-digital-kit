@@ -4,6 +4,16 @@
 
 日本語版はこのREADMEの後半にあります。
 
+## Introduction
+
+Pendy began with a simple question: what if the trace of a double pendulum were not used merely as modulation, but heard directly as an oscillator?
+
+The project treats time as the horizontal axis and the vertical position of the second mass as the audio signal. As the two linked masses exchange energy, the resulting waveform moves between smooth arcs, asymmetric pulses, unstable overtones, and rough chaotic folds. The motion is deterministic rather than random, so the sound remains playable while never feeling completely static.
+
+This is not a sampled pendulum and it does not read a prerecorded wavetable. A compact physical model runs inside the oscillator, and the waveform is generated from its changing state in real time. Pitch changes the rate at which the model is traversed, while gravity, link length, excitation, and damping reshape the motion itself. The result sits somewhere between physical modeling, FM-like timbral coupling, evolving wavetable synthesis, and chaos synthesis.
+
+Pendy is intended as an experimental sound source that still fits naturally into a musical instrument. Once loaded into a KORG user oscillator slot, it can be shaped with the instrument's filter, envelope, LFO, modulation, delay, and reverb. Ready-to-install builds are provided for NTS-1 digital kit mkI, minilogue xd, and prologue.
+
 ## Download
 
 Choose the file that matches your hardware:
