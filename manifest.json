@@ -1,0 +1,20 @@
+{
+  "header": {
+    "platform": "nutekt-digital",
+    "module": "osc",
+    "api": "1.1-0",
+    "dev_id": 0,
+    "prg_id": 0,
+    "version": "1.0-0",
+    "name": "Pendy",
+    "num_param": 6,
+    "params": [
+      ["Speed",   0, 100, "%"],
+      ["Chaos",   0, 100, "%"],
+      ["Len2",    0, 100, "%"],
+      ["Gravity", 0, 100, "%"],
+      ["Drive",   0, 100, "%"],
+      ["Damp",    0, 100, "%"]
+    ]
+  }
+}
