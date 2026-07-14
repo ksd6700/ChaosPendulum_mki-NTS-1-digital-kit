@@ -10,11 +10,11 @@ Choose the file that matches your hardware:
 
 | Hardware | Download this file | Unit format |
 | --- | --- | --- |
-| KORG Nu:Tekt NTS-1 digital kit mkI | [dist/pendy.ntkdigunit](dist/pendy.ntkdigunit) | `.ntkdigunit` |
-| KORG minilogue xd / xd module | [dist/pendy.mnlgxdunit](dist/pendy.mnlgxdunit) | `.mnlgxdunit` |
-| KORG prologue | [dist/pendy.prlgunit](dist/pendy.prlgunit) | `.prlgunit` |
+| KORG Nu:Tekt NTS-1 digital kit mkI | [pendy.ntkdigunit](https://github.com/ksd6700/ChaosPendulum_mki-NTS-1-digital-kit/releases/download/v0.1.0/pendy.ntkdigunit) | `.ntkdigunit` |
+| KORG minilogue xd / xd module | [pendy.mnlgxdunit](https://github.com/ksd6700/ChaosPendulum_mki-NTS-1-digital-kit/releases/download/v0.1.0/pendy.mnlgxdunit) | `.mnlgxdunit` |
+| KORG prologue | [pendy.prlgunit](https://github.com/ksd6700/ChaosPendulum_mki-NTS-1-digital-kit/releases/download/v0.1.0/pendy.prlgunit) | `.prlgunit` |
 
-If you are on GitHub, click the file for your instrument and use **Download raw file**. Release assets are also available from [Releases](../../releases).
+The same files are committed in [dist/](dist/) and listed in [Releases](../../releases).
 
 Developers should start with:
 
@@ -159,11 +159,11 @@ The current KORG logue SDK also contains newer v2 platforms such as NTS-1 digita
 
 | 機材 | ダウンロードするファイル | 形式 |
 | --- | --- | --- |
-| KORG Nu:Tekt NTS-1 digital kit mkI | [dist/pendy.ntkdigunit](dist/pendy.ntkdigunit) | `.ntkdigunit` |
-| KORG minilogue xd / xd module | [dist/pendy.mnlgxdunit](dist/pendy.mnlgxdunit) | `.mnlgxdunit` |
-| KORG prologue | [dist/pendy.prlgunit](dist/pendy.prlgunit) | `.prlgunit` |
+| KORG Nu:Tekt NTS-1 digital kit mkI | [pendy.ntkdigunit](https://github.com/ksd6700/ChaosPendulum_mki-NTS-1-digital-kit/releases/download/v0.1.0/pendy.ntkdigunit) | `.ntkdigunit` |
+| KORG minilogue xd / xd module | [pendy.mnlgxdunit](https://github.com/ksd6700/ChaosPendulum_mki-NTS-1-digital-kit/releases/download/v0.1.0/pendy.mnlgxdunit) | `.mnlgxdunit` |
+| KORG prologue | [pendy.prlgunit](https://github.com/ksd6700/ChaosPendulum_mki-NTS-1-digital-kit/releases/download/v0.1.0/pendy.prlgunit) | `.prlgunit` |
 
-GitHub上では、該当するファイルを開いて **Download raw file** から保存してください。[Releases](../../releases) にも同じ成果物を置ける構成にしています。
+同じファイルは [dist/](dist/) にもコミットしてあり、[Releases](../../releases) からも確認できます。
 
 開発者向けの主なファイル:
 
@@ -297,4 +297,3 @@ minilogue xd / prologue向けにビルドする場合は、それぞれのplatfo
 - prologue用パッケージはビルド済みです。
 - ホスト上のスモークテストで非ゼロ出力を確認しています。
 - 実機アップロードの追加検証は歓迎です。
-
